@@ -16,7 +16,7 @@
     var currPage = 1;  
     $.ajax({  
 		    type: 'GET',  
-		    url: baseurl + '?object_id=' + objectId + '&type=' + objectType + '&endpoint=' + endpoints.profile + '&mediatype=picture',  
+		    url: baseurl + '?object_id=' + objectId + '&type=' + objectType + '&endpoint=' + endpoints.profile,  
 		    dataType: 'JSON',  
 		    success: function(data,status,jqXHR){  
 			    if(data.status == '1'){  
